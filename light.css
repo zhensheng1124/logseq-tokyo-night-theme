@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+:root {
+  --ls-main-content-max-width: 1000px;
+  --ls-font-family: 'Roboto Slab';
+}
+
+/* === Headlines === */
+
+.ls-block h1, .ls-block h2, .ls-block h3, .ls-block h4, .ls-block h5, .ls-block h6 {
+  margin: 0;
+  color: var(--ls-header-color);
+}
+
+.editor-inner .h1, .editor-inner .h2, .ls-block :is(h1,h2) {
+  border-bottom: 0px solid red;
+}
+
+.page-ref {
+  font-weight: 700;
+}
+
+/* ========= TEST AREA ========= */
+.white-theme,
+html[data-theme='light'] {
+  --ls-primary-background-color: #F6F8F7;
+  --ls-secondary-background-color: #E8EDEB;
+  --ls-tertiary-background-color: #DDE4E1;
+  --ls-quaternary-background-color: #e8e5de;
+  --ls-table-tr-even-background-color: #E8EDEB;
+  --ls-active-primary-color: #86B2BB;
+  --ls-active-secondary-color: #86B2BB;
+  --ls-block-properties-background-color: #E8EDEB;
+  --ls-page-properties-background-color: #E8EDEB;
+  --ls-block-ref-link-text-color: #d8e1e8;
+  --ls-search-background-color: var(--ls-primary-background-color);
+  --ls-border-color: #ccc;
+  --ls-secondary-border-color: #e2e2e2;
+  --ls-guideline-color: #86B2BB;
+  --ls-menu-hover-color: var(--ls-a-chosen-bg);
+  --ls-primary-text-color: #332D47;
+  --ls-secondary-text-color: #332D47;
+  --ls-title-text-color: var(--ls-primary-text-color);
+  --ls-link-text-color: #86B2BB;
+  --ls-link-text-hover-color: #787E4D;
+  --ls-link-ref-text-color: #86B2BB;
+  --ls-link-ref-text-hover-color: #787E4D;
+  --ls-tag-text-color: var(--ls-link-ref-text-color);
+  --ls-tag-text-hover-color: var(--ls-link-ref-text-hover-color);
+  --ls-slide-background-color: #fff;
+  --ls-block-bullet-border-color: #dedede;
+  --ls-block-bullet-color: rgba(67, 63, 56, 0.25);
+  --ls-block-highlight-color: #c0e6fd;
+  --ls-selection-background-color: #86B2BB;
+  --ls-page-checkbox-color: #86B2BB;
+  --ls-page-checkbox-border-color: var(--ls-page-checkbox-color);
+  --ls-page-blockquote-color: var(--ls-primary-text-color);
+  --ls-page-blockquote-bg-color: #DDE4E1;
+  --ls-page-blockquote-border-color: #787E4D;
+  --ls-page-inline-code-bg-color: #DDE4E1;
+  --ls-page-inline-code-color: var(--ls-primary-text-color);
+  --ls-scrollbar-foreground-color: rgba(0, 0, 0, 0.1);
+  --ls-scrollbar-background-color: rgba(0, 0, 0, 0.05);
+  --ls-scrollbar-thumb-hover-color: rgba(0, 0, 0, 0.2);
+  --ls-head-text-color: var(--ls-link-text-color);
+  --ls-icon-color: #908e8b;
+  --ls-search-icon-color: var(--ls-icon-color);
+  --ls-a-chosen-bg: #f7f7f7;
+  --ls-right-sidebar-code-bg-color: var(--ls-secondary-background-color);
+  --color-level-1: var(--ls-secondary-background-color);
+  --color-level-2: var(--ls-tertiary-background-color);
+  --color-level-3: var(--ls-quaternary-background-color);
+  --color-level-4: #d0e6fa;
+  --color-level-5: #bbdaf6;
+}
