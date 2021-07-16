@@ -1,0 +1,17 @@
+{
+  "name": "New Theme",
+  "author": "nmartin84",
+  "version": "0.0.1",
+  "description": "Something... ",
+  "logseq": {
+    "themes": [
+      {
+        "name": "Light",
+        "url": "./light.css",
+        "description": "Such a beautiful lighten theme 🔆",
+        "mode": "light"
+      }
+    ],
+    "id": "light-01"
+  }
+}
