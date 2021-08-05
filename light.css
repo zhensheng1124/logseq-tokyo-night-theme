@@ -61,6 +61,17 @@
   --color-level-2: #262942;
 }
 
+.form-checkbox {
+  border: 2px solid #9ECE6A;
+  border-radius: 50%;
+  background: transparent;
+}
+
+li {
+  list-style: square;
+  color: #FF9E64;
+}
+
 .ls-block :is(h1, h2, h3, h4, h5, h6) {
   border-bottom: 0px solid red;
   margin: 0;
@@ -101,13 +112,15 @@ b {
 
 .block-ref {
   font-size: inherit;
-  padding: 1px 5px 0;
+  padding: 1px 5px 3px;
   border-radius: 2px;
-  background: var(--color-level-2);
+  border: 2px solid #333652;
+  background: #31344E;
 }
 
 .block-ref:hover {
   background: var(--color-level-1);
+  border: 0px solid transparent;
 }
 
 .block-ref:before {
