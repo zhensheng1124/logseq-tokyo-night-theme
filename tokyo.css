@@ -67,6 +67,10 @@ page-property-key.font-medium {
   color: red;
 }
 
+.pb-2 {
+  background: var(--color-level-1);
+}
+
 mark {
   background: #9ECE6A;
 }
