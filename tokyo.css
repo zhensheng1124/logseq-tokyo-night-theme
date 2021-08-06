@@ -38,7 +38,7 @@
   --ls-secondary-text-color: #C0CDF3;
   --ls-primary-text-bold-color: #9ECE6A;
   --ls-primary-text-italic-color: #2AC3DE;
-  --ls-title-text-color: #C0CDF3;
+  --ls-title-text-color: #FF9E64;
   --ls-page-properties-background-color: #1e2031;
   --ls-a-chosen-bg: var(--color-level-2);
   --ls-code-mirror-bg: #073642;
@@ -58,6 +58,7 @@
   --ls-table-tr-even-background-color: var(--ls-secondary-background-color);
   --ls-scrollbar-foreground-color: #9ECE6A;
   --ls-border-color: #9ECE6A;
+  --ls-block-ref-link-text-color: #9ECE6A;
   --color-level-1: #1e2031;
   --color-level-2: #262942;
 }
