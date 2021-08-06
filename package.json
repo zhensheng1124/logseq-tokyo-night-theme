@@ -1,17 +1,17 @@
 {
-  "name": "New Theme",
+  "name": "Tokyo Night Theme",
   "author": "nmartin84",
   "version": "0.0.1",
-  "description": "Something... ",
+  "description": "Port of the Obsidian MD theme Tokyo Night",
   "logseq": {
     "themes": [
       {
-        "name": "Light",
-        "url": "./light.css",
-        "description": "Such a beautiful lighten theme 🔆",
-        "mode": "light"
+        "name": "Tokyo Night",
+        "url": "./tokyo.css",
+        "description": "Tokyo Night 🏙️",
+        "mode": "dark"
       }
     ],
-    "id": "light-01"
+    "id": "tokyo-night"
   }
 }
