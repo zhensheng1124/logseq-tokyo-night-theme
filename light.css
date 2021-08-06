@@ -29,12 +29,13 @@
   --ls-link-text-color: #C0CDF3;
   --ls-link-ref-text-color: #9ECE6A;
   --ls-link-text-hover-color: #d33682;
-  --ls-link-ref-text-hover-color: #d33682;  
+  --ls-link-ref-text-hover-color: #d33682;
   --ls-page-inline-code-bg-color: #353853;
   --ls-secondary-background-color: #1e2031;
   --ls-page-checkbox-color: #9ECE6A;
   --ls-tertiary-background-color: #262942;
   --ls-primary-text-color: #C0CDF3;
+  --ls-secondary-text-color: #C0CDF3;
   --ls-primary-text-bold-color: #9ECE6A;
   --ls-primary-text-italic-color: #2AC3DE;
   --ls-title-text-color: #C0CDF3;
@@ -59,6 +60,22 @@
   --ls-border-color: #9ECE6A;
   --color-level-1: #1e2031;
   --color-level-2: #262942;
+}
+
+page-property-key.font-medium {
+  color: red;
+}
+
+mark {
+  background: #9ECE6A;
+}
+
+:not(pre)>code {
+  color: #2AC3DE;
+}
+
+.font-bold {
+  color: #FF9E64;
 }
 
 .form-checkbox {
@@ -110,6 +127,12 @@ b {
   color: black;
 }
 
+blockquote {
+  background: var(--color-level-2);
+  border-left-color: transparent;
+  border-left: 2px solid #9ECE6A;
+}
+
 .block-ref {
   font-size: inherit;
   padding: 1px 5px 3px;
@@ -144,9 +167,9 @@ b {
 }
 
 .CodeMirror-gutter {
-  background: #262942;
+  background: var(--ls-tertiary-background-color);
 }
 
 .CodeMirror-lines {
-  background: #1e2031;
+  background: var(--ls-secondary-background-color);
 }
