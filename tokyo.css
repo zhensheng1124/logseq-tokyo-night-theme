@@ -14,18 +14,18 @@
 }
 
 .colors-light, html[data-theme=light] {
-  --cd-primary-bg-color: #d5d6db;
-  --cd-secondary-bg-color: #c0c1c5;
-  --cd-alternate-bg-color: #aaabaf;
-  --cd-quaternary-bg-color: #959699;
-  --cd-fifth-bg-color: #808083;
-  --cd-sixth-bg-color: #6b6b6e;
+  --cd-primary-bg-color: #FCFFFC;
+  --cd-secondary-bg-color: #EFF2EF;
+  --cd-alternate-bg-color: #E3E6E3;
+  --cd-quaternary-bg-color: #D6D9D6;
+  --cd-fifth-bg-color: #CACCCA;
+  --cd-sixth-bg-color: #BDBFBD;
   --cd-highlight-bg-color: #dddee2;
   --cd-primary-text-color: #222436;
   --cd-alternate-text-color: #383a4a;
-  --cd-active-color-1: #567931;
-  --cd-active-color-2: #166775;
-  --cd-standby-color-1: #942c40;
+  --cd-active-color-1: #DD614A;
+  --cd-active-color-2: #18a999;
+  --cd-standby-color-1: #f17300;
 }
 
 .dark-theme, html[data-theme=dark] {
